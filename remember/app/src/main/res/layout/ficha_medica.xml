@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/texto_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ficha médica"
+            android:textColor="@color/titulo"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="8dp"/>
+
+        <!-- Sección de Información Personal -->
+        <TextView
+            android:id="@+id/etiqueta_nombre_completo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Completo:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_nombre_completo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edad:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_edad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Género:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_genero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_fecha_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha y lugar de nacimiento:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_fecha_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <!-- Sección de Información Médica -->
+        <TextView
+            android:id="@+id/etiqueta_tipo_sangre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo de Sangre:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_tipo_sangre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_eps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EPS:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_eps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección de Residencia:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_direccion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_estatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estatura:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_estatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_vacunacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esquema de Vacunación:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_vacunacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <!-- Sección de Antecedentes Personales -->
+        <TextView
+            android:id="@+id/etiqueta_antecedentes_personales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Antecedentes Personales:"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/etiqueta_enfermedades_ojos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enfermedades en los ojos:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_enfermedades_ojos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_lentes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lentes Permanentes:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_lentes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_protesis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prótesis:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_protesis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_alergias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alergias:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_alergias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_cirugias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cirugías:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_cirugias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_condiciones_especiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Condiciones Especiales:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_condiciones_especiales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <!-- Sección de Antecedentes Familiares -->
+        <TextView
+            android:id="@+id/etiqueta_antecedentes_familiares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Antecedentes Familiares:"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <TextView
+            android:id="@+id/etiqueta_diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_diabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_cancer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cáncer:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_cancer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_hipertension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hipertensión:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_hipertension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_enfermedades_cardiovasculares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enfermedades Cardiovasculares:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_enfermedades_cardiovasculares"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+        <TextView
+            android:id="@+id/etiqueta_otras_enfermedades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otras Enfermedades:"
+            android:textStyle="bold"
+            android:paddingTop="8dp"/>
+
+        <TextView
+            android:id="@+id/texto_otras_enfermedades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIN INFORMACIÓN"/>
+
+    </LinearLayout>
+</ScrollView>

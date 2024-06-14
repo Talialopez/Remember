@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background"
-    tools:context=".PantallaInicial">
-
+    android:background="@color/background">
     <ImageView
         android:id="@+id/elipse2"
         android:layout_width="wrap_content"
@@ -43,7 +41,7 @@
         android:layout_marginTop="40dp"
         android:background="@drawable/boton_rectangular"
         android:gravity="center"
-        android:text="Doctor/a"
+        android:text="Profesional"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="20dp"
